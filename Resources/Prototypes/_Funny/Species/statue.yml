@@ -20,7 +20,7 @@
   maleFirstNames: NamesHumanFirst
   femaleFirstNames: NamesHumanLast
   dollPrototype: MobStatuePersonDummy
-  skinColoration: FunnyStatueHues
+  skinColoration: TintedHues
 
 - type: speciesBaseSprites
   id: MobStatueSprites
