@@ -51,7 +51,7 @@
     prototype: Statue
     requiredLegs: 2
   - type: Damageable
-    damageContainer: BiologicalMetaphysical
+    damageContainer: StructuralInorganic
     damageModifierSet: Statue
   - type: DamageVisuals
     damageOverlayGroups:
