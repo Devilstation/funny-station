@@ -75,6 +75,10 @@ namespace Content.Shared.Humanoid
                     yield return HumanoidVisualLayers.Chest;
                     yield return HumanoidVisualLayers.Wings; // for IPC wings port from SimpleStation
                     yield return HumanoidVisualLayers.Tail;
+                    yield return HumanoidVisualLayers.TailUnderlay; // imp
+                    yield return HumanoidVisualLayers.TailBehind; // imp
+                    yield return HumanoidVisualLayers.TailBehindBackpack; // imp
+                    yield return HumanoidVisualLayers.TailOversuit; // imp
                     break;
                 // Shitmed Change Start
                 case HumanoidVisualLayers.LHand:

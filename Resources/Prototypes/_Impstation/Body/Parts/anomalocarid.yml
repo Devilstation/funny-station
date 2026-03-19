@@ -1,0 +1,153 @@
+- type: entity
+  id: PartAnomalocarid
+  parent: [BaseItem, BasePart]
+  name: "anomalocarid body part"
+  abstract: true
+  components:
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 3
+      - ReagentId: CopperBlood
+        Quantity: 10
+  - type: Sprite # Shitmed Change
+    sprite: _Impstation/Mobs/Species/Anomalocarid/parts.rsi
+  - type: BodyPart # Shitmed Change
+    species: Anomalocarid
+
+- type: entity
+  id: TorsoAnomalocarid
+  name: "anomalocarid torso"
+  parent: [PartAnomalocarid, BaseTorso]
+  components:
+  - type: Item
+    size: Ginormous
+    shape:
+    - 0,0,5,3
+  - type: Sprite
+    sprite: _Impstation/Mobs/Species/Anomalocarid/parts.rsi
+    state: "torso"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 10
+      - ReagentId: CopperBlood
+        Quantity: 20
+
+- type: entity
+  id: HeadAnomalocarid
+  name: "anomalocarid head"
+  parent: [PartAnomalocarid, BaseHead]
+  components:
+  - type: Item
+    size: Huge
+    shape:
+    - 0,0,1,1
+  - type: Sprite
+    state: "head"
+    offset: 0,-0.3
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 5
+      - ReagentId: CopperBlood
+        Quantity: 10
+
+- type: entity
+  id: LeftArmAnomalocarid
+  name: "left anomalocarid arm"
+  parent: [PartAnomalocarid, BaseLeftArm]
+  components:
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,0,1
+  - type: Sprite
+    state: "l_arm"
+    offset: -0.2,0
+
+- type: entity
+  id: RightArmAnomalocarid
+  name: "right anomalocarid arm"
+  parent: [PartAnomalocarid, BaseRightArm]
+  components:
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,0,1
+  - type: Sprite
+    state: "r_arm"
+    offset: 0.2,0
+
+- type: entity
+  id: LeftHandAnomalocarid
+  name: "left anomalocarid hand"
+  parent: [PartAnomalocarid, BaseLeftHand]
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    state: "l_hand"
+    offset: -0.2,0.1
+
+- type: entity
+  id: RightHandAnomalocarid
+  name: "right anomalocarid hand"
+  parent: [PartAnomalocarid, BaseRightHand]
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    state: "r_hand"
+    offset: 0.2,0.1
+
+- type: entity
+  id: LeftLegAnomalocarid
+  name: "left anomalocarid leg"
+  parent: [PartAnomalocarid, BaseLeftLeg]
+  components:
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,0,1
+  - type: Sprite
+    state: "l_leg"
+    offset: -0.1,0.3
+
+- type: entity
+  id: RightLegAnomalocarid
+  name: "right anomalocarid leg"
+  parent: [PartAnomalocarid, BaseRightLeg]
+  components:
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,0,1
+  - type: Sprite
+    state: "r_leg"
+    offset: 0.1,0.3
+
+- type: entity
+  id: LeftFootAnomalocarid
+  name: "left anomalocarid foot"
+  parent: [PartAnomalocarid, BaseLeftFoot]
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    state: "l_foot"
+    offset: -0.15,0.45
+
+- type: entity
+  id: RightFootAnomalocarid
+  name: "right anomalocarid foot"
+  parent: [PartAnomalocarid, BaseRightFoot]
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    state: "r_foot"
+    offset: 0.15,0.45
