@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/23/2026 04:26:03
-  entityCount: 2791
+  time: 03/23/2026 05:10:14
+  entityCount: 2782
 maps:
 - 1
 grids:
@@ -1550,11 +1550,10 @@ entities:
     - type: Transform
       pos: -19.5,0.5
       parent: 2
-- proto: AirlockEngineeringLocked
-  entities:
   - uid: 1480
     components:
     - type: Transform
+      rot: 1.5707963267948966 rad
       pos: -24.5,0.5
       parent: 2
 - proto: AirlockEVAGlassLocked
@@ -12678,18 +12677,6 @@ entities:
         1881:
         - - Pressed
           - Toggle
-        1885:
-        - - Pressed
-          - Toggle
-        1665:
-        - - Pressed
-          - Toggle
-        1658:
-        - - Pressed
-          - Toggle
-        1959:
-        - - Pressed
-          - Toggle
         1960:
         - - Pressed
           - Toggle
@@ -13249,49 +13236,17 @@ entities:
       parent: 2
 - proto: PlasmaWindoorSecureEngineeringLocked
   entities:
-  - uid: 2024
+  - uid: 1658
     components:
     - type: Transform
-      pos: -29.5,-0.5
+      rot: 1.5707963267948966 rad
+      pos: -26.5,-1.5
       parent: 2
-  - uid: 2122
+  - uid: 1665
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -29.5,1.5
-      parent: 2
-  - uid: 2652
-    components:
-    - type: Transform
-      pos: -28.5,-0.5
-      parent: 2
-  - uid: 2655
-    components:
-    - type: Transform
-      pos: -27.5,-0.5
-      parent: 2
-  - uid: 2656
-    components:
-    - type: Transform
-      pos: -26.5,-0.5
-      parent: 2
-  - uid: 2675
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -26.5,1.5
-      parent: 2
-  - uid: 2676
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -27.5,1.5
-      parent: 2
-  - uid: 2677
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -28.5,1.5
+      rot: 1.5707963267948966 rad
+      pos: -26.5,2.5
       parent: 2
 - proto: PlasmaWindoorSecureScienceLocked
   entities:
@@ -14631,18 +14586,6 @@ entities:
       parent: 2
 - proto: ShuttersRadiation
   entities:
-  - uid: 1658
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -24.5,1.5
-      parent: 2
-  - uid: 1665
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -24.5,-0.5
-      parent: 2
   - uid: 1878
     components:
     - type: Transform
@@ -14665,20 +14608,10 @@ entities:
     - type: Transform
       pos: -26.5,-2.5
       parent: 2
-  - uid: 1885
-    components:
-    - type: Transform
-      pos: -25.5,-2.5
-      parent: 2
   - uid: 1887
     components:
     - type: Transform
       pos: -27.5,3.5
-      parent: 2
-  - uid: 1959
-    components:
-    - type: Transform
-      pos: -25.5,3.5
       parent: 2
   - uid: 1960
     components:
@@ -15335,11 +15268,17 @@ entities:
       parent: 2
 - proto: SignRadiationMed
   entities:
-  - uid: 2721
+  - uid: 1885
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
-      pos: -24.5,-1.5
+      pos: -24.5,1.5
+      parent: 2
+  - uid: 1959
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -24.5,-0.5
       parent: 2
 - proto: SignScience
   entities:
