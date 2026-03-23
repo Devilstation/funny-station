@@ -45,8 +45,12 @@
             Chemist: [ 1, 1 ]
             Janitor: [ 1, 1 ]
             Musician: [ 1, 1 ]
+            Clown: [ 1, 1 ]
+            Mime: [ 1, 1 ]
+            Librarian: [ 1, 1 ]
             StationEngineer: [ 2, 3 ]
             Scientist: [ 1, 1 ]
+            Roboticist: [ 1, 1 ]
             Chaplain: [ 1, 1 ]
             Passenger: [ -1, -1 ]
 
